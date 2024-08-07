@@ -1,3 +1,10 @@
+//Alert BoX
+
+window.onload = function() {
+    if (/Mobi|Android/i.test(navigator.userAgent)) {
+      alert("Please switch to the desktop site or use a PC/Laptop for the best experience.");
+    }
+  };
 
 // LOGIC FOR CURSOR 
 var crsr=document.querySelector("#cursor");
